@@ -1,0 +1,242 @@
+2025-09-30T15:55:31.684+08:00  INFO 12388 --- [main] com.example.rapplication                 : Starting rapplication using Java 17.0.9 with PID 12388 (D:\softwareke\run1\target\classes started by Lenovo in D:\softwareke\run1)
+2025-09-30T15:55:31.687+08:00 DEBUG 12388 --- [main] com.example.rapplication                 : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-30T15:55:31.689+08:00  INFO 12388 --- [main] com.example.rapplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-09-30T15:55:33.172+08:00  INFO 12388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30T15:55:33.228+08:00  INFO 12388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 JPA repository interfaces.
+2025-09-30T15:55:34.660+08:00  INFO 12388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-30T15:55:34.678+08:00  INFO 12388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-30T15:55:34.680+08:00  INFO 12388 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-30T15:55:34.836+08:00  INFO 12388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-30T15:55:34.837+08:00  INFO 12388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3031 ms
+2025-09-30T15:55:35.141+08:00  INFO 12388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-30T15:55:35.521+08:00  INFO 12388 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53940e2f
+2025-09-30T15:55:35.525+08:00  INFO 12388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-30T15:55:35.616+08:00  INFO 12388 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30T15:55:35.766+08:00  INFO 12388 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-30T15:55:35.857+08:00  INFO 12388 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-30T15:55:36.382+08:00  INFO 12388 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30T15:55:37.077+08:00  INFO 12388 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30T15:55:37.088+08:00  INFO 12388 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30T15:55:37.565+08:00  WARN 12388 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30T15:55:37.772+08:00 DEBUG 12388 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2025-09-30T15:55:37.941+08:00 DEBUG 12388 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30T15:55:38.031+08:00 DEBUG 12388 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30T15:55:38.116+08:00 DEBUG 12388 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30T15:55:38.437+08:00  INFO 12388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-09-30T15:55:38.454+08:00  INFO 12388 --- [main] com.example.rapplication                 : Started rapplication in 7.711 seconds (process running for 8.541)
+2025-09-30T15:55:45.491+08:00  INFO 12388 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-30T15:55:45.491+08:00  INFO 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-30T15:55:45.492+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-09-30T15:55:45.492+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-09-30T15:55:45.492+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-09-30T15:55:45.494+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3245efdb
+2025-09-30T15:55:45.495+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6fbc7853
+2025-09-30T15:55:45.496+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-30T15:55:45.497+08:00  INFO 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-09-30T15:55:45.512+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/circles", parameters={}
+2025-09-30T15:55:45.531+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#savecircle(Circle)
+2025-09-30T15:55:45.729+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [com.example.entity.Circle@35da4efe]
+2025-09-30T15:55:45.780+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : ==>  Preparing: SELECT * FROM circle WHERE id = ?
+2025-09-30T15:55:45.823+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : ==> Parameters: 3001(Long)
+2025-09-30T15:55:45.857+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : <==      Total: 0
+2025-09-30T15:55:45.860+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleByname  : ==>  Preparing: SELECT * FROM circle WHERE name = ?
+2025-09-30T15:55:45.861+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleByname  : ==> Parameters: 足球社区(String)
+2025-09-30T15:55:45.865+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleByname  : <==      Total: 0
+2025-09-30T15:55:45.866+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.Insertcircle     : ==>  Preparing: INSERT INTO circle(id,name,ownerid,description,joinrule,maxusers) VALUES(?,?,?,?,?,?)
+2025-09-30T15:55:45.868+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.Insertcircle     : ==> Parameters: 3001(Long), 足球社区(String), 30(Long), 讨论足球的社区(String), 1(Integer), 50(Integer)
+2025-09-30T15:55:45.875+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.Insertcircle     : <==    Updates: 1
+2025-09-30T15:55:45.899+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-09-30T15:55:45.901+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["插入circle成功"]
+2025-09-30T15:55:45.911+08:00 DEBUG 12388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-09-30T15:58:34.234+08:00 DEBUG 12388 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/circles/3001", parameters={}
+2025-09-30T15:58:34.235+08:00 DEBUG 12388 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#getcircle(Long)
+2025-09-30T15:58:34.240+08:00 DEBUG 12388 --- [http-nio-8080-exec-3] c.e.mapper.CircleMapper.getCircleById    : ==>  Preparing: SELECT * FROM circle WHERE id = ?
+2025-09-30T15:58:34.241+08:00 DEBUG 12388 --- [http-nio-8080-exec-3] c.e.mapper.CircleMapper.getCircleById    : ==> Parameters: 3001(Long)
+2025-09-30T15:58:34.247+08:00 DEBUG 12388 --- [http-nio-8080-exec-3] c.e.mapper.CircleMapper.getCircleById    : <==      Total: 1
+2025-09-30T15:58:34.270+08:00 DEBUG 12388 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30T15:58:34.270+08:00 DEBUG 12388 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.entity.Circle@2abe3348]
+2025-09-30T15:58:34.286+08:00 DEBUG 12388 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-09-30T15:59:12.751+08:00 DEBUG 12388 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/circles/3001", parameters={}
+2025-09-30T15:59:12.751+08:00 DEBUG 12388 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#getcircle(Long)
+2025-09-30T15:59:12.753+08:00 DEBUG 12388 --- [http-nio-8080-exec-4] c.e.mapper.CircleMapper.getCircleById    : ==>  Preparing: SELECT * FROM circle WHERE id = ?
+2025-09-30T15:59:12.753+08:00 DEBUG 12388 --- [http-nio-8080-exec-4] c.e.mapper.CircleMapper.getCircleById    : ==> Parameters: 3001(Long)
+2025-09-30T15:59:12.755+08:00 DEBUG 12388 --- [http-nio-8080-exec-4] c.e.mapper.CircleMapper.getCircleById    : <==      Total: 1
+2025-09-30T15:59:12.756+08:00 DEBUG 12388 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30T15:59:12.756+08:00 DEBUG 12388 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.entity.Circle@1d8a6a88]
+2025-09-30T15:59:12.758+08:00 DEBUG 12388 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-09-30T16:02:17.672+08:00 DEBUG 12388 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/circles/3001", parameters={}
+2025-09-30T16:02:17.673+08:00 DEBUG 12388 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#getcircle(Long)
+2025-09-30T16:02:17.675+08:00 DEBUG 12388 --- [http-nio-8080-exec-6] c.e.mapper.CircleMapper.getCircleById    : ==>  Preparing: SELECT * FROM circle WHERE id = ?
+2025-09-30T16:02:17.675+08:00 DEBUG 12388 --- [http-nio-8080-exec-6] c.e.mapper.CircleMapper.getCircleById    : ==> Parameters: 3001(Long)
+2025-09-30T16:02:17.677+08:00 DEBUG 12388 --- [http-nio-8080-exec-6] c.e.mapper.CircleMapper.getCircleById    : <==      Total: 1
+2025-09-30T16:02:17.678+08:00 DEBUG 12388 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30T16:02:17.679+08:00 DEBUG 12388 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.entity.Circle@5fbc152e]
+2025-09-30T16:02:17.681+08:00 DEBUG 12388 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-09-30T16:02:44.880+08:00  INFO 12388 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30T16:02:44.886+08:00  INFO 12388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-30T16:02:44.908+08:00  INFO 12388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-30T16:02:49.453+08:00  INFO 12488 --- [main] com.example.rapplication                 : Starting rapplication using Java 17.0.9 with PID 12488 (D:\softwareke\run1\target\classes started by Lenovo in D:\softwareke\run1)
+2025-09-30T16:02:49.456+08:00 DEBUG 12488 --- [main] com.example.rapplication                 : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-30T16:02:49.457+08:00  INFO 12488 --- [main] com.example.rapplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-09-30T16:02:50.934+08:00  INFO 12488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30T16:02:50.983+08:00  INFO 12488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JPA repository interfaces.
+2025-09-30T16:02:52.411+08:00  INFO 12488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-30T16:02:52.430+08:00  INFO 12488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-30T16:02:52.430+08:00  INFO 12488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-30T16:02:52.596+08:00  INFO 12488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-30T16:02:52.597+08:00  INFO 12488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3024 ms
+2025-09-30T16:02:52.891+08:00  INFO 12488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-30T16:02:53.284+08:00  INFO 12488 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20c812c8
+2025-09-30T16:02:53.289+08:00  INFO 12488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-30T16:02:53.377+08:00  INFO 12488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30T16:02:53.515+08:00  INFO 12488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-30T16:02:53.605+08:00  INFO 12488 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-30T16:02:54.114+08:00  INFO 12488 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30T16:02:54.851+08:00  INFO 12488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30T16:02:54.863+08:00  INFO 12488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30T16:02:55.338+08:00  WARN 12488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30T16:02:55.581+08:00 DEBUG 12488 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2025-09-30T16:02:55.746+08:00 DEBUG 12488 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30T16:02:55.838+08:00 DEBUG 12488 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30T16:02:55.929+08:00 DEBUG 12488 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30T16:02:56.292+08:00  INFO 12488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-09-30T16:02:56.311+08:00  INFO 12488 --- [main] com.example.rapplication                 : Started rapplication in 7.779 seconds (process running for 8.599)
+2025-09-30T16:03:24.186+08:00  INFO 12488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-30T16:03:24.186+08:00  INFO 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-30T16:03:24.187+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-09-30T16:03:24.187+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-09-30T16:03:24.187+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-09-30T16:03:24.188+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7d5a0b14
+2025-09-30T16:03:24.189+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6acb45c1
+2025-09-30T16:03:24.190+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-30T16:03:24.191+08:00  INFO 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-09-30T16:03:24.205+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/circles/3001", parameters={}
+2025-09-30T16:03:24.228+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#getcircle(Long)
+2025-09-30T16:03:24.344+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : ==>  Preparing: SELECT * FROM circle WHERE id = ?
+2025-09-30T16:03:24.388+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : ==> Parameters: 3001(Long)
+2025-09-30T16:03:24.419+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : <==      Total: 1
+2025-09-30T16:03:24.491+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30T16:03:24.495+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.entity.Circle@44e54df1]
+2025-09-30T16:03:24.523+08:00 DEBUG 12488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-09-30T16:03:29.053+08:00  INFO 12488 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30T16:03:29.056+08:00  INFO 12488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-30T16:03:29.072+08:00  INFO 12488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-30T16:04:21.192+08:00  INFO 20856 --- [main] com.example.rapplication                 : Starting rapplication using Java 17.0.9 with PID 20856 (D:\softwareke\run1\target\classes started by Lenovo in D:\softwareke\run1)
+2025-09-30T16:04:21.195+08:00 DEBUG 20856 --- [main] com.example.rapplication                 : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-30T16:04:21.198+08:00  INFO 20856 --- [main] com.example.rapplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-09-30T16:04:22.715+08:00  INFO 20856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30T16:04:22.767+08:00  INFO 20856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JPA repository interfaces.
+2025-09-30T16:04:24.083+08:00  INFO 20856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-30T16:04:24.103+08:00  INFO 20856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-30T16:04:24.104+08:00  INFO 20856 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-30T16:04:24.421+08:00  INFO 20856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-30T16:04:24.423+08:00  INFO 20856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3097 ms
+2025-09-30T16:04:24.697+08:00  INFO 20856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-30T16:04:25.060+08:00  INFO 20856 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45e6d1e0
+2025-09-30T16:04:25.065+08:00  INFO 20856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-30T16:04:25.165+08:00  INFO 20856 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30T16:04:25.290+08:00  INFO 20856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-30T16:04:25.370+08:00  INFO 20856 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-30T16:04:25.839+08:00  INFO 20856 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30T16:04:26.559+08:00  INFO 20856 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30T16:04:26.570+08:00  INFO 20856 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30T16:04:27.064+08:00  WARN 20856 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30T16:04:27.333+08:00 DEBUG 20856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2025-09-30T16:04:27.536+08:00 DEBUG 20856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30T16:04:27.642+08:00 DEBUG 20856 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30T16:04:27.727+08:00 DEBUG 20856 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30T16:04:28.109+08:00  INFO 20856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-09-30T16:04:28.126+08:00  INFO 20856 --- [main] com.example.rapplication                 : Started rapplication in 7.884 seconds (process running for 8.724)
+2025-09-30T16:04:42.852+08:00  INFO 20856 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-30T16:04:42.854+08:00  INFO 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-30T16:04:42.855+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-09-30T16:04:42.855+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-09-30T16:04:42.856+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-09-30T16:04:42.857+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2f0e7fa8
+2025-09-30T16:04:42.858+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@733fa95c
+2025-09-30T16:04:42.859+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-30T16:04:42.860+08:00  INFO 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-09-30T16:04:42.878+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/circles/3001", parameters={}
+2025-09-30T16:04:42.907+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#getcircle(Long)
+2025-09-30T16:04:43.066+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : ==>  Preparing: SELECT * FROM circle WHERE id = ?
+2025-09-30T16:04:43.130+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : ==> Parameters: 3001(Long)
+2025-09-30T16:04:43.172+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : <==      Total: 1
+2025-09-30T16:04:43.274+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2025-09-30T16:04:43.281+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.entity.Circle@55f9da17]
+2025-09-30T16:04:43.324+08:00 DEBUG 20856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-09-30T16:06:36.082+08:00  INFO 20856 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30T16:06:36.087+08:00  INFO 20856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-30T16:06:36.106+08:00  INFO 20856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-30T16:08:15.418+08:00  INFO 25392 --- [main] com.example.rapplication                 : Starting rapplication using Java 17.0.9 with PID 25392 (D:\softwareke\run1\target\classes started by Lenovo in D:\softwareke\run1)
+2025-09-30T16:08:15.422+08:00 DEBUG 25392 --- [main] com.example.rapplication                 : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-09-30T16:08:15.424+08:00  INFO 25392 --- [main] com.example.rapplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-09-30T16:08:17.033+08:00  INFO 25392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30T16:08:17.083+08:00  INFO 25392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2025-09-30T16:08:18.373+08:00  INFO 25392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-30T16:08:18.395+08:00  INFO 25392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-30T16:08:18.396+08:00  INFO 25392 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-09-30T16:08:18.546+08:00  INFO 25392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-30T16:08:18.547+08:00  INFO 25392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2999 ms
+2025-09-30T16:08:18.822+08:00  INFO 25392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-30T16:08:19.189+08:00  INFO 25392 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61db86bf
+2025-09-30T16:08:19.193+08:00  INFO 25392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-30T16:08:19.277+08:00  INFO 25392 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30T16:08:19.394+08:00  INFO 25392 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-09-30T16:08:19.493+08:00  INFO 25392 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-30T16:08:19.985+08:00  INFO 25392 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30T16:08:20.678+08:00  INFO 25392 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30T16:08:20.688+08:00  INFO 25392 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30T16:08:21.149+08:00  WARN 25392 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30T16:08:21.418+08:00 DEBUG 25392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2025-09-30T16:08:21.601+08:00 DEBUG 25392 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30T16:08:21.697+08:00 DEBUG 25392 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30T16:08:21.786+08:00 DEBUG 25392 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30T16:08:22.101+08:00  INFO 25392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-09-30T16:08:22.120+08:00  INFO 25392 --- [main] com.example.rapplication                 : Started rapplication in 7.66 seconds (process running for 8.441)
+2025-09-30T16:08:30.902+08:00  INFO 25392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-30T16:08:30.902+08:00  INFO 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-30T16:08:30.903+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-09-30T16:08:30.903+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-09-30T16:08:30.903+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-09-30T16:08:30.905+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24d7657b
+2025-09-30T16:08:30.907+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2c0fefac
+2025-09-30T16:08:30.907+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-30T16:08:30.908+08:00  INFO 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-09-30T16:08:30.922+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/circles/3001", parameters={}
+2025-09-30T16:08:30.947+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#getcircle(Long)
+2025-09-30T16:08:31.072+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : ==>  Preparing: SELECT * FROM circle WHERE id = ?
+2025-09-30T16:08:31.120+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : ==> Parameters: 3001(Long)
+2025-09-30T16:08:31.156+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] c.e.mapper.CircleMapper.getCircleById    : <==      Total: 1
+2025-09-30T16:08:31.232+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30T16:08:31.235+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.entity.Circle@170b0964]
+2025-09-30T16:08:31.269+08:00 DEBUG 25392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-09-30T16:09:52.756+08:00 DEBUG 25392 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/api/circles", parameters={}
+2025-09-30T16:09:52.756+08:00 DEBUG 25392 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#updatecircle(Circle)
+2025-09-30T16:09:52.816+08:00 DEBUG 25392 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [com.example.entity.Circle@517b9d2c]
+2025-09-30T16:09:52.821+08:00 DEBUG 25392 --- [http-nio-8080-exec-3] com.example.mapper.CircleMapper.update   : ==>  Preparing: UPDATE circle SET name = ?, description = ? WHERE id = ?
+2025-09-30T16:09:52.822+08:00 DEBUG 25392 --- [http-nio-8080-exec-3] com.example.mapper.CircleMapper.update   : ==> Parameters: 足球爱好者社区(String), 讨论足球的社区(String), 3001(Long)
+2025-09-30T16:09:52.946+08:00 DEBUG 25392 --- [http-nio-8080-exec-3] com.example.mapper.CircleMapper.update   : <==    Updates: 1
+2025-09-30T16:09:52.947+08:00 DEBUG 25392 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-09-30T16:09:52.948+08:00 DEBUG 25392 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["圈子更新成功"]
+2025-09-30T16:09:52.951+08:00 DEBUG 25392 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-09-30T16:11:22.255+08:00 DEBUG 25392 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/circles/3001/members/2001", parameters={masked}
+2025-09-30T16:11:22.255+08:00 DEBUG 25392 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#addmember(Long, Long)
+2025-09-30T16:11:22.262+08:00 DEBUG 25392 --- [http-nio-8080-exec-5] c.example.mapper.CircleMapper.addMember  : ==>  Preparing: INSERT INTO circle_member(circle_id, user_id) VALUES(?, ?)
+2025-09-30T16:11:22.263+08:00 DEBUG 25392 --- [http-nio-8080-exec-5] c.example.mapper.CircleMapper.addMember  : ==> Parameters: 3001(Long), 2001(Long)
+2025-09-30T16:11:22.534+08:00 DEBUG 25392 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.GlobalExceptionHandler#handleDataIntegrityViolation(DataIntegrityViolationException)
+2025-09-30T16:11:22.537+08:00 DEBUG 25392 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30T16:11:22.538+08:00 DEBUG 25392 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [ErrorResponse{code='DATABASE_CONSTRAINT_ERROR', message='Cannot add or update a child row: a foreign (truncated)...]
+2025-09-30T16:11:22.541+08:00 DEBUG 25392 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`userdb`.`circle_member`, CONSTRAINT `circle_member_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)<EOL><EOL>### The error may exist in com/example/mapper/CircleMapper.java (best guess)<EOL><EOL>### The error may involve com.example.mapper.CircleMapper.addMember-Inline<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: INSERT INTO circle_member(circle_id, user_id) VALUES(?, ?)<EOL><EOL>### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`userdb`.`circle_member`, CONSTRAINT `circle_member_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)<EOL>; Cannot add or update a child row: a foreign key constraint fails (`userdb`.`circle_member`, CONSTRAINT `circle_member_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)]
+2025-09-30T16:11:22.542+08:00 DEBUG 25392 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 409 CONFLICT
+2025-09-30T16:28:09.766+08:00  WARN 25392 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m20s407ms844µs200ns).
+2025-09-30T16:28:47.662+08:00 DEBUG 25392 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/circles/3001/members/100", parameters={masked}
+2025-09-30T16:28:47.662+08:00 DEBUG 25392 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CircleController#addmember(Long, Long)
+2025-09-30T16:28:47.664+08:00 DEBUG 25392 --- [http-nio-8080-exec-7] c.example.mapper.CircleMapper.addMember  : ==>  Preparing: INSERT INTO circle_member(circle_id, user_id) VALUES(?, ?)
+2025-09-30T16:28:47.664+08:00 DEBUG 25392 --- [http-nio-8080-exec-7] c.example.mapper.CircleMapper.addMember  : ==> Parameters: 3001(Long), 100(Long)
+2025-09-30T16:28:47.805+08:00 DEBUG 25392 --- [http-nio-8080-exec-7] c.example.mapper.CircleMapper.addMember  : <==    Updates: 1
+2025-09-30T16:28:47.806+08:00 DEBUG 25392 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-09-30T16:28:47.806+08:00 DEBUG 25392 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["成员添加成功"]
+2025-09-30T16:28:47.807+08:00 DEBUG 25392 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-09-30T16:30:07.094+08:00  INFO 25392 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30T16:30:07.098+08:00  INFO 25392 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-30T16:30:07.114+08:00  INFO 25392 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
